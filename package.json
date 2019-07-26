@@ -1,0 +1,44 @@
+{
+  "name": "eth-gas-costs",
+  "version": "0.0.1",
+  "description": "Simple Solidity (and Vyper) examples to demonstrate gas trade-offs.",
+  "scripts": {
+    "test": "truffle test",
+    "lint": "solium -d contracts --fix && eslint . --fix",
+    "lintNoFix": "solium -d contracts && eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardlyDifficult/ETH-gas-costs.git"
+  },
+  "keywords": [
+    "Solidity",
+    "Vyper",
+    "Ethereum",
+    "ETH"
+  ],
+  "author": "HardlyDifficult",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HardlyDifficult/ETH-gas-costs/issues"
+  },
+  "homepage": "https://github.com/HardlyDifficult/ETH-gas-costs#readme",
+  "dependencies": {
+    "babel-eslint": "10.0.2",
+    "bignumber.js": "9.0.0",
+    "chai": "4.2.0",
+    "eslint": "6.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-json": "1.4.0",
+    "eslint-plugin-markdown": "1.0.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "eth-gas-reporter": "^0.2.6",
+    "openzeppelin-solidity": "2.3.0",
+    "openzeppelin-test-helpers": "0.4.0",
+    "prettier": "1.18.2",
+    "solium": "1.2.4",
+    "truffle": "5.0.28",
+    "truffle-assertions": "0.9.1",
+    "unlock-abi-1-1": "1.0.0"
+  }
+}
