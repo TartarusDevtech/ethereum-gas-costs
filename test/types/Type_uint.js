@@ -18,7 +18,7 @@ contract("Type_uint", accounts => {
   it("acceptParam_uint8(max)", async () => {
     await contract.acceptParam_uint8(255);
   });
-  
+
   it("acceptParam_uint256(0)", async () => {
     await contract.acceptParam_uint256(0);
   });
@@ -37,17 +37,17 @@ contract("Type_uint", accounts => {
 
   it("increment_uint8 from 0", async () => {
     await contract.increment_uint8();
-  })
+  });
 
   it("increment_uint8 from 1", async () => {
     await contract.increment_uint8();
-  })  
+  });
 
   it("increment_uint256 from 0", async () => {
     await contract.increment_uint256();
-  })
+  });
 
   it("increment_uint256 from 1", async () => {
     await contract.increment_uint256();
-  })  
+  });
 });
