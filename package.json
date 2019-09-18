@@ -31,7 +31,7 @@
     "eslint-config-prettier": "6.3.0",
     "eslint-plugin-json": "1.4.0",
     "eslint-plugin-markdown": "1.0.0",
-    "eslint-plugin-prettier": "3.1.0",
+    "eslint-plugin-prettier": "3.1.1",
     "eth-gas-reporter": "0.2.11",
     "openzeppelin-solidity": "2.3.0",
     "openzeppelin-test-helpers": "0.4.3",
