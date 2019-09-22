@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/HardlyDifficult/ETH-gas-costs#readme",
   "dependencies": {
-    "@codechecks/client": "0.1.9",
+    "@codechecks/client": "0.1.10",
     "babel-eslint": "10.0.3",
     "bignumber.js": "9.0.0",
     "chai": "4.2.0",
