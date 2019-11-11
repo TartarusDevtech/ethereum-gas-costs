@@ -36,7 +36,7 @@
     "eth-gas-reporter": "0.2.12",
     "openzeppelin-solidity": "2.4.0",
     "openzeppelin-test-helpers": "0.4.3",
-    "prettier": "1.18.2",
+    "prettier": "1.19.1",
     "solium": "1.2.5",
     "truffle": "5.0.39",
     "truffle-assertions": "0.9.1",
