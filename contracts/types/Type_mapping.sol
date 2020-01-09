@@ -6,8 +6,6 @@ contract Type_mapping
   mapping(uint => uint) public data;
   uint public count;
 
-  uint private testDummy = 1; // start with a non-zero value
-
   function write(uint value) public
   {
     data[count++] = value;
@@ -15,15 +13,13 @@ contract Type_mapping
 
   // Mutable functions to get a gas report on the cost
 
-  function testReadCost(uint key) public
+  function testReadCost(uint key) public returns (uint)
   {
-    uint value = data[key];
-    testDummy = value; // avoids view warning
+    return data[key];
   }
 
-  function testCountCost() public
+  function testCountCost() public returns (uint)
   {
-    uint value = count;
-    testDummy = value; // avoids view warning
+    return count;
   }
 }
