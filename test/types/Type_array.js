@@ -1,6 +1,6 @@
 const ContractArtifact = artifacts.require("Type_array");
 
-contract("Type_array", accounts => {
+contract("Type_array", (accounts) => {
   let contract;
 
   before(async () => {

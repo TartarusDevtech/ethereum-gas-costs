@@ -81,8 +81,8 @@ module.exports = {
     useColors: true,
     reporterOptions: {
       currency: "USD",
-      gasPrice: 5
-    }
+      gasPrice: 5,
+    },
   },
 
   // Configure your compilers
@@ -94,10 +94,10 @@ module.exports = {
         // See the solidity docs for advice about optimization and evmVersion
         optimizer: {
           enabled: true,
-          runs: 200000000
-        }
+          runs: 200000000,
+        },
         //  evmVersion: "byzantium"
-      }
-    }
-  }
+      },
+    },
+  },
 };

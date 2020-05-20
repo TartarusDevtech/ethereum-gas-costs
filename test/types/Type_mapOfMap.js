@@ -1,6 +1,6 @@
 const ContractArtifact = artifacts.require("Type_mapOfMap");
 
-contract("Type_mapOfMap", accounts => {
+contract("Type_mapOfMap", (accounts) => {
   let contract;
 
   before(async () => {

@@ -2,13 +2,13 @@ module.exports = {
   root: true,
   parserOptions: {
     parser: "babel-eslint",
-    ecmaVersion: 2017
+    ecmaVersion: 2017,
   },
   env: {
     browser: true,
     node: true,
     mocha: true,
-    es6: true
+    es6: true,
   },
   globals: {
     expect: true,
@@ -23,7 +23,7 @@ module.exports = {
     web3: true,
     describe: true,
     artifacts: true,
-    tronWeb: true
+    tronWeb: true,
   },
   extends: ["plugin:prettier/recommended", "eslint:recommended"],
   plugins: ["markdown", "prettier", "json"],
@@ -33,6 +33,6 @@ module.exports = {
     "no-unused-vars": "warn",
     "no-case-declarations": 0,
     "no-empty": 0,
-    quotes: ["error", "double"]
-  }
+    quotes: ["error", "double"],
+  },
 };
