@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-
+// Change to 2 contracts more uint types
 contract Type_uint
 {
   uint8 public value_uint8;
