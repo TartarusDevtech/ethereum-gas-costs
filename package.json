@@ -37,9 +37,9 @@
     "hardlydifficult-eth": "1.1.2",
     "openzeppelin-solidity": "3.1.0",
     "openzeppelin-test-helpers": "0.4.3",
-    "prettier": "2.1.0",
+    "prettier": "2.1.1",
     "solium": "1.2.5",
-    "truffle": "5.1.41",
+    "truffle": "5.1.42",
     "truffle-assertions": "0.9.2",
     "unlock-abi-1-1": "1.1.1"
   },
