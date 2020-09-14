@@ -35,7 +35,7 @@
     "eslint-plugin-prettier": "3.1.4",
     "eth-gas-reporter": "0.2.17",
     "hardlydifficult-eth": "1.1.2",
-    "openzeppelin-solidity": "3.1.0",
+    "openzeppelin-solidity": "3.2.0",
     "openzeppelin-test-helpers": "0.4.3",
     "prettier": "2.1.1",
     "solium": "1.2.5",
